@@ -1,11 +1,9 @@
 // Code your solution in this file!
-const drivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
 
 const returnFirstTwoDrivers = function (drivers = []) {
   let newDrivers = drivers.slice(0, 2);
   return newDrivers;
 }
-
 
 
 const returnLastTwoDrivers = (drivers = []) => {
@@ -32,4 +30,4 @@ const selectDifferentDrivers = (arrayOfDrivers = [], functionName) => {
     return returnLastTwoDrivers(arrayOfDrivers);
   }
 }
-console.log(selectDifferentDrivers(drivers, returnLastTwoDrivers))
+
